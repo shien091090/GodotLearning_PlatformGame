@@ -20,4 +20,7 @@ func _process(delta: float) -> void:
 		
 	if(Input.is_action_pressed('ui_left')):
 		position.x -= speed * delta
+		
+#	if(Input.is_action_just_pressed("custom_popup_coin")):
+		
 	pass

@@ -6,7 +6,7 @@
 [node name="MainScene" type="Node2D" unique_id=725485319]
 position = Vector2(58, 3)
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=660560795]
+[node name="RewardBox" type="Sprite2D" parent="." unique_id=660560795]
 texture = ExtResource("1_6e84v")
 script = ExtResource("2_ibiss")
 speed = 300.0

@@ -12,4 +12,3 @@ script = ExtResource("2_ibiss")
 speed = 300.0
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=525658404]
-zoom = Vector2(1.675, 1.675)

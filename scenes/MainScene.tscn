@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://di6v3egl8qrtm"]
 
 [ext_resource type="Texture2D" uid="uid://d2ym3yw01yy8u" path="res://assets/textures/reward-box.png" id="1_6e84v"]
-[ext_resource type="Script" uid="uid://db1n7vi1kxgkq" path="res://scripts/player.gd" id="2_ibiss"]
+[ext_resource type="Script" uid="uid://xfyy3k8vbtep" path="res://scripts/Player.cs" id="2_ibiss"]
 
 [node name="MainScene" type="Node2D" unique_id=725485319]
 position = Vector2(58, 3)
@@ -9,6 +9,6 @@ position = Vector2(58, 3)
 [node name="RewardBox" type="Sprite2D" parent="." unique_id=660560795]
 texture = ExtResource("1_6e84v")
 script = ExtResource("2_ibiss")
-speed = 300.0
+speed = 50.0
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=525658404]
